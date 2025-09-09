@@ -204,4 +204,3 @@ x_og=torch.rand(size=(3,4,2)) #[height, width, colorchannel]
 print("\n",x_og,x_og.shape)
 x_permuted=x_og.permute(2,0,1) #shifting-->[height-->2, width-->0, colorchannel-->1]
 print("\n",x_permuted,x_permuted.shape)
-print(f"hello")
